@@ -1,4 +1,4 @@
-package com.wclass.structalgorithm.sort_01.d10_PostorderTraversalTree;
+package com.wclass.structalgorithm.sort_01.d10_postorder_traversal_tree;
 
 import java.util.Stack;
 
@@ -10,7 +10,7 @@ import java.util.Stack;
  * @create: 2024-09-08-00-58
  * @Version 1.0
  **/
-public class AuxiliaryMonotonicStack {
+public class AuxiliaryMonotonicStackS1D10 {
 
     public boolean verifyTreeOrder(int[] postorder) {
         Stack<Integer> stack = new Stack<>();

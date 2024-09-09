@@ -1,4 +1,4 @@
-package com.wclass.structalgorithm.sort_01.d10_PostorderTraversalTree;
+package com.wclass.structalgorithm.sort_01.d10_postorder_traversal_tree;
 
 /**
  * @program: StructAlgorithm
