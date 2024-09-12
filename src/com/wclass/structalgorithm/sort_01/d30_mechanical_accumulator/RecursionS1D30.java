@@ -1,4 +1,4 @@
-package com.wclass.structalgorithm.sort_01.mechanical_accumulator;
+package com.wclass.structalgorithm.sort_01.d30_mechanical_accumulator;
 
 /**
  * @program: StructAlgorithm
