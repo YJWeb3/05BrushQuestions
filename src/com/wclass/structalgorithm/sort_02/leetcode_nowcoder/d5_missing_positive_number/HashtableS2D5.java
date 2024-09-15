@@ -2,26 +2,29 @@ package com.wclass.structalgorithm.sort_02.leetcode_nowcoder.d5_missing_positive
 
 /**
  * @program: StructAlgorithm
- * @ClassName DisplaceS1D5
+ * @ClassName HashtableS1D5
  * @description:
  * @author: W哥
  * @create: 2024-09-14-23-06
  * @Version 1.0
  **/
-public class DisplaceS1D5 {
+public class HashtableS2D5 {
 
     public int firstMissingPositive(int[] nums) {
         int n = nums.length;
-        // 第i位存放i+1的数值
         for (int i = 0; i < n; ++i) {
-            while (nums[i] > 0 && nums[i] <= n && nums[nums[i] - 1] != nums[i]) {
-                int temp = nums[nums[i] - 1];
-                nums[nums[i] - 1] = nums[i];
-                nums[i] = temp;
+            if (nums[i] <= 0) {
+                nums[i] = n + 1;
             }
         }
         for (int i = 0; i < n; ++i) {
-            if (nums[i] != i + 1) {
+            int num = Math.abs(nums[i]);
+            if (num <= n) {
+                nums[num - 1] = -Math.abs(nums[num - 1]);
+            }
+        }
+        for (int i = 0; i < n; ++i) {
+            if (nums[i] > 0) {
                 return i + 1;
             }
         }

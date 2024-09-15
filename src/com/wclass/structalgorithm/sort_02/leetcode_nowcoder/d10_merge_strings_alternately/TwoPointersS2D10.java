@@ -8,7 +8,7 @@ package com.wclass.structalgorithm.sort_02.leetcode_nowcoder.d10_merge_strings_a
  * @create: 2024-09-14-23-28
  * @Version 1.0
  **/
-public class TwoPointersS1D10 {
+public class TwoPointersS2D10 {
 
     public String mergeAlternately(String word1, String word2) {
         int m = word1.length(), n = word2.length();

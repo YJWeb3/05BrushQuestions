@@ -8,7 +8,7 @@ package com.wclass.structalgorithm.sort_02.leetcode_nowcoder.d6_replace_spaces;
  * @create: 2024-09-14-23-09
  * @Version 1.0
  **/
-public class TwoPointersS1D6 {
+public class TwoPointersS2D6 {
 
     public String replaceSpace(String s) {
         if(s.length() == 0 || s == null) return s;

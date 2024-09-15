@@ -2,21 +2,21 @@ package com.wclass.structalgorithm.sort_02.leetcode_nowcoder.d7_left_rotate_stri
 
 /**
  * @program: StructAlgorithm
- * @ClassName StringTraverseStitchingS1D7
+ * @ClassName TraverseStitchingS1D7
  * @description:
  * @author: W哥
- * @create: 2024-09-14-23-13
+ * @create: 2024-09-14-23-12
  * @Version 1.0
  **/
-public class StringTraverseStitchingS1D7 {
+public class ListTraverseStitchingS2D7 {
 
     public String reverseLeftWords(String s, int n) {
-        String res = "";
+        StringBuilder res = new StringBuilder();
         for(int i = n; i < s.length(); i++)
-            res += s.charAt(i);
+            res.append(s.charAt(i));
         for(int i = 0; i < n; i++)
-            res += s.charAt(i);
-        return res;
+            res.append(s.charAt(i));
+        return res.toString();
     }
 
 }

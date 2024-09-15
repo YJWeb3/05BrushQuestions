@@ -11,7 +11,7 @@ import java.util.Map;
  * @create: 2024-09-14-23-24
  * @Version 1.0
  **/
-public class DFAS1D8 {
+public class DFAS2D8 {
 
     public boolean isNumber(String s) {
         Map<State, Map<CharType, State>> transfer = new HashMap<State, Map<CharType, State>>();

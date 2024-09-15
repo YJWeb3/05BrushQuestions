@@ -8,7 +8,7 @@ package com.wclass.structalgorithm.sort_02.leetcode_nowcoder.d4_array_except_sel
  * @create: 2024-09-14-23-02
  * @Version 1.0
  **/
-public class LeftRightProductListS1D4 {
+public class LeftRightProductListS2D4 {
 
     public int[] productExceptSelf(int[] nums) {
         int length = nums.length;

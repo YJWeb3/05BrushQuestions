@@ -8,7 +8,7 @@ package com.wclass.structalgorithm.sort_02.leetcode_nowcoder.d6_replace_spaces;
  * @create: 2024-09-14-23-08
  * @Version 1.0
  **/
-public class CharacterArrayS1D6 {
+public class CharacterArrayS2D6 {
 
     public String replaceSpace(String s) {
         int length = s.length();

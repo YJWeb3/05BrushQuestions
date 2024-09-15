@@ -8,7 +8,7 @@ package com.wclass.structalgorithm.sort_02.leetcode_nowcoder.d9_string_int;
  * @create: 2024-09-14-23-26
  * @Version 1.0
  **/
-public class StringToIntS1D9 {
+public class StringToIntS2D9 {
 
     public int strToInt(String str) {
         char[] c = str.trim().toCharArray();
