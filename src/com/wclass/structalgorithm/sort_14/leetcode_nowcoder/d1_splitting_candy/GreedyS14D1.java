@@ -1,26 +1,18 @@
-package com.wclass.structalgorithm.sort_14;
+package com.wclass.structalgorithm.sort_14.leetcode_nowcoder.d1_splitting_candy;
 
 /**
  * @program: StructAlgorithm
- * @ClassName q1_candy
+ * @ClassName GreedyS14D1
  * @description:
  * @author: W哥
- * @create: 2024-09-04-00-17
+ * @create: 2024-09-20-20-38
  * @Version 1.0
  **/
-public class q1_candy {
+public class GreedyS14D1 {
 
-    /*
-    * 题目描述：—群孩子做游戏，现在请你根据游戏得分来发糖果，要求如下:
-    *  1.每个孩子不管得分多少，起码分到一个糖果。
-    *  2.任意两个相邻的孩子之间。得分较多的孩子必须拿多一些糖果。(若相同则无此限制）
-    * 给定一个数组αrr代表得分数组，请返回最少需要多少糖果。
-    * 要求:时间复杂度为O(n)空间复杂度为O(n)
-    **/
-    // 方式一：贪心算法
     public int candy (int[] arr) {
-        int n = arr.length;
-        if(n <= 1)
+        int n=arr.length;
+        if(n<=1)
             return n;
         int[] nums = new int[n];
         //初始化
