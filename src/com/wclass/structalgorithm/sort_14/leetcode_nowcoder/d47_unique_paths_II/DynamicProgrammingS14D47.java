@@ -1,4 +1,4 @@
-package com.wclass.structalgorithm.sort_14.leetcode_nowcoder.d47_unique_paths_II‌;
+package com.wclass.structalgorithm.sort_14.leetcode_nowcoder.d47_unique_paths_II;
 
 /**
  * @program: StructAlgorithm
