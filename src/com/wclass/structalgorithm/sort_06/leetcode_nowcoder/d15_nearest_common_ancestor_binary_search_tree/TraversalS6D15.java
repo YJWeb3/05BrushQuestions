@@ -1,4 +1,4 @@
-package com.wclass.structalgorithm.sort_06.leetcode_nowcoder.d15_nearest_common_ancestor;
+package com.wclass.structalgorithm.sort_06.leetcode_nowcoder.d15_nearest_common_ancestor_binary_search_tree;
 
 import com.wclass.structalgorithm.sort_01.leetcode_nowcoder.d0_entity.TreeNode;
 
