@@ -1,5 +1,7 @@
 package com.wclass.structalgorithm.sort_01.leetcode_nowcoder.d22_colorful_lights_2;
 
+import com.wclass.structalgorithm.sort_01.leetcode_nowcoder.d0_entity.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
