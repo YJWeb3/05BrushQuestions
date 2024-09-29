@@ -1,9 +1,6 @@
 package com.wclass.structalgorithm.sort_01.leetcode_nowcoder.d1_norepeat;
 
 
-import com.wclass.structalgorithm.sort_01.leetcode_nowcoder.d1_norepeat.IterationS1D1;
-import com.wclass.structalgorithm.sort_01.leetcode_nowcoder.d1_norepeat.RecursiveS1D1;
-
 /**
  * @program: StructAlgorithm
  * @ClassName Main
